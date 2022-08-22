@@ -11,12 +11,4 @@ public class Character {
     public void sayMyStrength() {
         System.out.println("My strength is " + strength);
     }
-    
-    public Character(int strength, int agility, int intelligence, String name)
-    {
-        strength = this.strength;
-        agility = this.agility;
-        intelligence = this.intelligence;
-        name = this.name;
-    }
 }
