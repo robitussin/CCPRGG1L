@@ -24,7 +24,5 @@ public class App {
         thief.intelligence = 0;
         mage.name = "Gondar";
         thief.sayMyName();
-        
-        Character healer = new Character(8,8,8,"Janna");
     }
 }
