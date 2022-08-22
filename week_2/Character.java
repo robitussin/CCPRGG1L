@@ -12,7 +12,7 @@ public class Character {
         System.out.println("My strength is " + strength);
     }
     
-    public Character{int strength, int agility, int intelligence, String name)
+    public Character(int strength, int agility, int intelligence, String name)
         strength = this.strength;
         agility = this.agility;
         intelligence = this.intelligence;
