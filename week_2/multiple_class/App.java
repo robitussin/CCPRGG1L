@@ -32,7 +32,7 @@ public class App {
         boss.damage = 50;
         boss.health = 500;
         boss.armor = 100;
-        boss.hasMagicImmunnity = true;
+        boss.hasMagicImmunity = true;
         boss.name = "Roshan";
         boss.enemyDialogue();
 
@@ -41,7 +41,7 @@ public class App {
         skeleton.damage = 5;
         skeleton.health = 10;
         skeleton.armor = 5;
-        skeleton.hasMagicImmunnity = false;
+        skeleton.hasMagicImmunity = false;
         skeleton.name = "Common Skeleton Warrior";
         skeleton.enemyDialogue();
 
@@ -50,7 +50,7 @@ public class App {
         dragon.damage = 40;
         dragon.health = 400;
         dragon.armor = 75;
-        dragon.hasMagicImmunnity = false;
+        dragon.hasMagicImmunity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
     }

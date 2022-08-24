@@ -3,7 +3,7 @@ public class Enemy {
     int damage;
     int health;
     int armor;
-    boolean hasMagicImmunnity;
+    boolean hasMagicImmunity;
     String name;
 
     // Enemy method
