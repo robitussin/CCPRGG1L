@@ -26,27 +26,31 @@ public class App {
         thief.name = "Gondar";
         thief.sayMyName();
 
+        // Enemy Class
         Enemy boss = new Enemy();
+
         boss.damage = 50;
         boss.health = 500;
         boss.armor = 100;
-        boss.hasMagicImmunity = true;
-        boss.name = "Slave Knight Gael";
+        boss.hasMagicImmunnity = true;
+        boss.name = "Roshan";
         boss.enemyDialogue();
 
         Enemy skeleton = new Enemy();
+
         skeleton.damage = 5;
         skeleton.health = 10;
         skeleton.armor = 5;
+        skeleton.hasMagicImmunnity = false;
         skeleton.name = "Common Skeleton Warrior";
-        skeleton.hasMagicImmunity = false;
         skeleton.enemyDialogue();
 
         Enemy dragon = new Enemy();
+
         dragon.damage = 40;
         dragon.health = 400;
         dragon.armor = 75;
-        dragon.hasMagicImmunity = false;
+        dragon.hasMagicImmunnity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
     }

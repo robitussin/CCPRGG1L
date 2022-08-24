@@ -1,9 +1,9 @@
 public class Enemy {
-    // Enemy Attributes
+    // Enemy attributes
     int damage;
     int health;
     int armor;
-    boolean hasMagicImmunity;
+    boolean hasMagicImmunnity;
     String name;
 
     // Enemy method
