@@ -10,41 +10,6 @@ public class App {
         knight.name = "Chen";
         knight.sayMyName();
 
-        Character mage = new Character();
-
-        mage.strength = 0;
-        mage.agility = 5;
-        mage.intelligence = 10;
-        mage.name = "Akasha";
-        mage.sayMyName();
-
-        Character thief = new Character();
-
-        thief.strength = 5;
-        thief.agility = 10;
-        thief.intelligence = 0;
-        thief.name = "Gondar";
-        thief.sayMyName();
-
-        // Enemy Class
-        Enemy boss = new Enemy();
-
-        boss.damage = 50;
-        boss.health = 500;
-        boss.armor = 100;
-        boss.hasMagicImmunity = true;
-        boss.name = "Roshan";
-        boss.enemyDialogue();
-
-        Enemy skeleton = new Enemy();
-
-        skeleton.damage = 5;
-        skeleton.health = 10;
-        skeleton.armor = 5;
-        skeleton.hasMagicImmunity = false;
-        skeleton.name = "Common Skeleton Warrior";
-        skeleton.enemyDialogue();
-
         Enemy dragon = new Enemy();
 
         dragon.damage = 40;
@@ -53,5 +18,75 @@ public class App {
         dragon.hasMagicImmunity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
+
+        // Create a Pet Class
+
+        // Properties
+        // name
+        // trust level
+        // isAdopted
+        // Birthday
+
+        // Create one object
+        // object - dog
+
+        // name - Browny
+        // trust level - 100
+        // isAdopted - false
+        // Birthday - 04/03/1990
+
+        Pet dog = new Pet();
+        dog.name = "Browny";
+        dog.trustlevel = 100;
+        dog.isAdopted = false;
+        dog.birthday = "04/03/1990";
+
+        // Create a Person Class
+
+        // Properties
+
+        // object - Me
+        // firstname
+        // middlename
+        // surname
+        // age
+
+        // object - me
+        // firstname - elizer
+        // middlename - D
+        // surname - ponio
+        // age - 50
+
+        Person Me = new Person();
+        Me.firstname = "elizer";
+        Me.middlename = 'D';
+        Me.surname = "ponio";
+        Me.age = 50;
+
+        // Create a fruit class
+
+        // properties
+        // color
+        // taste
+        // weight
+        // isMyfavorite
+        // firstLetterofFruitObject
+
+        // example:
+
+        // object - Mango
+        Fruit Mango = new Fruit();
+
+        // color - Yellow
+        Mango.color = "Yellow";
+        // taste - supersweet
+        Mango.taste = "supersweet";
+        // weight - 0.25
+        Mango.weight = 0.25f;
+        // isMyfavorite - true
+        Mango.isMyfavorite = true;
+        // firstLetterofFruitObject - M
+        Mango.firstLetterofFruitObject = 'M';
+
     }
 }
