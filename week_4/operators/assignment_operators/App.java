@@ -11,6 +11,7 @@ public class App {
 
         // Same as x = x + 5;
         // x = 5 + 5;
+        // x = 10;
         x += 5;
         System.out.println(x);
 
@@ -39,6 +40,7 @@ public class App {
 
         // Same as c = c / 3;
         // c = 5 / 3;
+        // c = 1.6666667
         double c = 5;
         c /= 3;
         System.out.println(c);
@@ -47,7 +49,7 @@ public class App {
         // Gets remainder value and assigns to a variable
         // Same as d = d % 3;
         // d = 5 % 3
-        // d 
+        // d = 2
         int d = 5;
         d %= 3;
         System.out.println(d);
