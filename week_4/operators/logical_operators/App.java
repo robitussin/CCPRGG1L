@@ -9,7 +9,7 @@ public class App {
         
         int x = 4;
         // Comparison one: x > 1 (true)
-        // Comparison two: x < 5 (false)
+        // Comparison two: x < 5 (true)
         System.out.println(x > 1 && x < 5); // returns true because x is greater than 1 and x is less than 5
 
         // Logical OR operator (||)
