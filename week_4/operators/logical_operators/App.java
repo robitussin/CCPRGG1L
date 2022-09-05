@@ -14,8 +14,12 @@ public class App {
                                             // but y is not less than 4)
 
         // Logical NOT operator (!)
+        // Used to reverse a result
+        // Changes true to false
+        // Changes false to true
+        
         int z = 2;
-        System.out.println(!(z > 5));
+        System.out.println(!(z > 5)); // 2 is not greater than 5 which is false. Returns true because it is the reverse of false
 
         System.out.println(!(z > 1 && z < 3)); // returns false because ! (not) is used to reverse the result
     }
