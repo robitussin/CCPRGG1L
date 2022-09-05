@@ -31,6 +31,6 @@ public class App {
 
         // Comparison one: z > 1 (true)
         // Comparison one: z < 3 (true)
-        System.out.println(!(z > 1 && z < 3)); // Initially returns true but returns false because ! (not) is used to reverse the result
+        System.out.println(!(z > 1 && z < 3)); // Initially returns true but returns false because ! (not) is used to reverse the result.
     }
 }
