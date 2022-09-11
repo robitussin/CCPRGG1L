@@ -1,13 +1,17 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String myName = new String("Elizer");
+        // Basic way of declaring String variables
         String mySurName = "Ponio";
-
-        System.out.println(myName);
-        System.out.println(myName.length());
-        System.out.println(myName.toLowerCase());
-        System.out.println(myName.toUpperCase());
+        
+        // Declaring String variables as Objects
+        String myName = new String("Elizer");
+        
+        // Because String is a class. It has methods that can be accessed.
+        System.out.println(myName); // prints Elizer
+        System.out.println(myName.length()); // prints 6
+        System.out.println(myName.toLowerCase()); // prints elizer
+        System.out.println(myName.toUpperCase()); // prints ELIZER
 
     }
 }

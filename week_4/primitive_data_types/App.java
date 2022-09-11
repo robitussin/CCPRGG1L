@@ -48,12 +48,6 @@ public class App {
         char myGrade = 'A';
         System.out.println(myGrade);
 
-        // String
-        // The String data type is used to store a sequence of characters (text). String
-        // values must be surrounded by double quotes:
-        String greeting = "Hello World";
-        System.out.println(greeting);
-
         // Boolean
         // A boolean data type is declared with the boolean keyword and can only take
         // the values true or false:
