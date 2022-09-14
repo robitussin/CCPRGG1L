@@ -9,9 +9,11 @@ public class App {
 
     public static void main(String[] args) {
 
+        // Method call
         int sum = add();
         System.out.println("The sum is: " + sum);
 
+        // Method call
         int difference = subtract();
         System.out.println("The difference is: " + difference);
 
