@@ -28,6 +28,9 @@ public class App {
         // Method call
         double myGrade = getAverage();
         System.out.println("My final grade is: " + myGrade + "%");
+        
+        // Close scanner
+        scan.close();
     }
 
     static int add() {
