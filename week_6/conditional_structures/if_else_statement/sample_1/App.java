@@ -1,9 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // Sequential Structure
-        // Methods are called in order.
-
+        // Conditional Structure
         boolean ihaveNoMoney = true;
 
         if (ihaveNoMoney) {
