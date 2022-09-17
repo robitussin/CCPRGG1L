@@ -3,34 +3,44 @@ public class App {
 
         // Sequential Structure
         // Methods are called in order.
-        firstmethod();
 
-        secondMethod();
+        // Step 1
+        rideJeep();
 
-        thirdMethod();
+        // Step 2
+        rideBus();
 
-        fourthMethod();
+        // Step 3
+        rideLRT();
 
-        fifthMethod();
+        // Step 4
+        rideTricycle();
+
+        // Step 5
+        walk();
     }
 
-    static void firstmethod() {
-        System.out.println("This is the first method!");
+    static void rideJeep() {
+        System.out.println("Ride jeep along katipunan Street");
+        System.out.println("Exit jeep along Sumulong Highway");
     }
 
-    static void secondMethod() {
-        System.out.println("This is the second method!");
+    static void rideBus() {
+        System.out.println("Ride bus along Sumulong Highway");
+        System.out.println("Exit bus at SM Masinag");
     }
 
-    static void thirdMethod() {
-        System.out.println("This is the third method!");
+    static void rideLRT() {
+        System.out.println("Ride at Antipolo station");
+        System.out.println("Exit at Legarda station");
     }
 
-    static void fourthMethod() {
-        System.out.println("This is the fourth method!");
+    static void rideTricycle() {
+        System.out.println("Ride tricycle at Figueras Street");
+        System.out.println("Exit tricycle at Jhocson Street");
     }
 
-    static void fifthMethod() {
-        System.out.println("This is the fifth method!");
+    static void walk() {
+        System.out.println("Walk for 3 mins");
     }
 }
