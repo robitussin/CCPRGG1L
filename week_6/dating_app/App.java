@@ -65,5 +65,7 @@ public class App {
         }
 
         System.out.println("Thank you for playing :)");
+
+        scan.close();
     }
 }
