@@ -38,5 +38,7 @@ public class App {
 
         System.out.println("Your order is: " + item1 + " " + item2 + " " + item3);
         System.out.println("Your total amount is: " + totalAmount);
+
+        scan.close();
     }
 }
