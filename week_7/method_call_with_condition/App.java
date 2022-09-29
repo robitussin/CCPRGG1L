@@ -6,6 +6,7 @@ public class App {
         if (!checkAge(age)) {
 
             System.out.println("Im going home");
+            return;
         }
     }
 
