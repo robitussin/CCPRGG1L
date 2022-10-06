@@ -17,7 +17,7 @@ public class Practice {
 
         // 2. Create a method to convert fahrenheit to celsius.
         System.out.print("Enter temperature in fahrenheit: ");
-        tempInFahrenheit = scan.nextDouble();
+        double tempInFahrenheit = scan.nextDouble();
 
         // 3. Create a method to convert seconds to minutes.
         System.out.print("Enter time in seconds: ");
