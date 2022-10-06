@@ -111,7 +111,7 @@ public class Answer {
         }
         
         // 10. Create a condition to classify your favorite drink based on a string
-        // pattern.
+        // pattern using the .contain() string method.
         System.out.print("Enter your favorite drink: ");
         String drink = scan.nextLine();
 
