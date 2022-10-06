@@ -110,34 +110,14 @@ public class Answer {
                 break;
         }
         
-        // 10. Create a condition to classify your favorite drink based on a string
-        // pattern using the .contain() string method.
-        // Classifications:
-        // juice
-        // coffee
-        // tea
-        // soda/cola
-        // wine
-        // beer
-        // water
-        
-        System.out.print("Enter your favorite drink: ");
-        String drink = scan.nextLine();
+        // 10. Create a condition to detect if a word is present in the input.
+        System.out.print("Use the word \"love\" in any sentence");
+        String sentence = scan.nextLine();
 
-        if (drink.contains("juice")) {
-            System.out.print("Refreshing and natural!");
-        } else if (drink.contains("coffee")) {
-            System.out.print("Will keep you awake the entire day!");
-        } else if (drink.contains("tea")) {
-            System.out.print("Soothing!");
-        } else if (drink.contains("soda") || drink.contains("cola")) {
-            System.out.print("Refreshing but dont drink it too much!");
-        } else if (drink.contains("wine")) {
-            System.out.print("Classy!");
-        } else if (drink.contains("beer")) {
-            System.out.print("Dont drink this if you are driving!");
-        } else if (drink.contains("water")) {
-            System.out.print("The best!");
+        if (drink.contains("love")) {
+            System.out.print("valid");
+        } else {
+            System.out.print("invalid");
         }
 
         // Close scanner
