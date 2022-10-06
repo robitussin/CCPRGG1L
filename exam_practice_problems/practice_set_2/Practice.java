@@ -59,5 +59,13 @@ public class Practice {
 
         System.out.print("Enter one of the five human senses: ");
         String sense = scan.next();
+        
+        // 10. Create a condition to classify your favorite drink based on a string
+        // pattern.
+        System.out.print("Enter your favorite drink: ");
+        String drink = scan.nextLine();
+        
+        // Close scanner
+        scan.close()
     }
 }
