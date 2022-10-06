@@ -113,9 +113,9 @@ public class Answer {
         // 10. Create a condition to detect if a word is present in the input.
         scan.nextLine();
         System.out.println("Use the word \"love\" in any sentence");
-        String love = scan.nextLine();
+        String sentence = scan.nextLine();
 
-        if (love.contains("love")) {
+        if (sentence.contains("love")) {
             System.out.print("valid");
         } else {
             System.out.print("invalid");
