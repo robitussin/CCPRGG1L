@@ -4,7 +4,7 @@ public class Practice {
 
     static Scanner scan = new Scanner(System.in);
 
-    // Answers
+    // Questions
     public static void main(String[] args) throws Exception {
         System.out.println("Exam 2 practice problems");
 
