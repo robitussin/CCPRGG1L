@@ -50,7 +50,7 @@ public class Practice {
         System.out.print("Enter the capital of the philippines: ");
         String capital = scan.next();
 
-        // 9. Create a condition to check if the answer is belongs to one of the five human senses
+        // 9. Create a condition to check if the answer belongs to one of the five human senses
         // sight
         // touch
         // hearing
