@@ -112,6 +112,15 @@ public class Answer {
         
         // 10. Create a condition to classify your favorite drink based on a string
         // pattern using the .contain() string method.
+        // Classifications:
+        // juice
+        // coffee
+        // tea
+        // soda/cola
+        // wine
+        // beer
+        // water
+        
         System.out.print("Enter your favorite drink: ");
         String drink = scan.nextLine();
 
