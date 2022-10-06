@@ -60,19 +60,10 @@ public class Practice {
         System.out.print("Enter one of the five human senses: ");
         String sense = scan.next();
         
-        // 10. Create a condition to classify your favorite drink based on a string
-        // pattern using the .contain() string method.
-        // Classifications:
-        // juice
-        // coffee
-        // tea
-        // soda/cola
-        // wine
-        // beer
-        // water
-        System.out.print("Enter your favorite drink: ");
-        String drink = scan.nextLine();
-        
+        // 10. Create a condition to detect if a word is present in the input.
+        System.out.print("Use the word \"love\" in any sentence");
+        String sentence = scan.nextLine();
+
         // Close scanner
         scan.close()
     }
