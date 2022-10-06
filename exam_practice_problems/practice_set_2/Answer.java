@@ -71,7 +71,7 @@ public class Answer {
         }
 
         // 8. Create a condition to check if the answer is correct
-        // UPPERCASE
+        // answer should be manila or MANILA
         System.out.print("Enter the capital of the philippines: ");
         String capital = scan.next();
 
@@ -81,8 +81,12 @@ public class Answer {
             System.out.println("invalid");
         }
 
-        // 8. Create a condition to check if the answer is correct
-        // UPPERCASE
+        // 9. Create a condition to check if the answer belongs to one of the five human senses
+        // sight
+        // touch
+        // hearing
+        // smell
+        // taste
         System.out.print("Enter one of the five human senses: ");
         String sense = scan.next();
 
