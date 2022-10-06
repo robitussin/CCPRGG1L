@@ -16,14 +16,14 @@ public class Answer {
         double tempInCelsius = scan.nextDouble();
         double tempInFahrenheit = toFahrenheit(tempInCelsius);
         System.out.println(tempInCelsius + "°C is equal to " + tempInFahrenheit +
-        "°F");
+                "°F");
 
         // 2. Create a method to convert fahrenheit to celsius.
         System.out.print("Enter temperature in fahrenheit: ");
         tempInFahrenheit = scan.nextDouble();
         tempInCelsius = toCelsius(tempInFahrenheit);
         System.out.println(tempInFahrenheit + "°F is equal to " + tempInCelsius +
-        "°C");
+                "°C");
 
         // 3. Create a method to convert seconds to minutes.
         System.out.print("Enter time in seconds: ");
@@ -41,22 +41,20 @@ public class Answer {
         System.out.print("Enter storage value in megabytes: ");
         double megabytes = scan.nextDouble();
         double gigabytes = megabyteToGigabyte(megabytes);
-        System.out.println(megabytes + " megabytes is equal to " + gigabytes + "
-        gigabytes");
+        System.out.println(megabytes + " megabytes is equal to " + gigabytes + "gigabytes");
 
-        Part 2: Conditions
-        Display "valid" if it is true.
-        Display "invalid" if it is false.
+        // Part 2: Conditions
+        // Display "valid" if it is true.
+        // Display "invalid" if it is false.
 
-        6. Create a condition to check if the length given mobile number is valid
-
+        // 6. Create a condition to check if the length given mobile number is valid
         System.out.print("Enter your 11 digit mobile number: ");
         String mobileNumber = scan.next();
 
         if (mobileNumber.length() == 11) {
-        System.out.println("valid");
+            System.out.println("valid");
         } else {
-        System.out.println("invalid");
+            System.out.println("invalid");
         }
 
         // 7. Create a condition to check if your bestfriend's first name is in
@@ -65,9 +63,9 @@ public class Answer {
         String bestfriend = scan.next();
 
         if (bestfriend == bestfriend.toUpperCase()) {
-        System.out.println("valid");
+            System.out.println("valid");
         } else {
-        System.out.println("invalid");
+            System.out.println("invalid");
         }
 
         // 8. Create a condition to check if the answer is correct
@@ -81,7 +79,8 @@ public class Answer {
             System.out.println("invalid");
         }
 
-        // 9. Create a condition to check if the answer belongs to one of the five human senses
+        // 9. Create a condition to check if the answer belongs to one of the five human
+        // senses
         // sight
         // touch
         // hearing
