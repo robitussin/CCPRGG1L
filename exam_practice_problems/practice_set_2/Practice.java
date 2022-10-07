@@ -66,6 +66,6 @@ public class Practice {
         String love = scan.nextLine();
 
         // Close scanner
-        scan.close()
+        scan.close();
     }
 }
