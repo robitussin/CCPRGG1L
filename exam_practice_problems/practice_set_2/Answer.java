@@ -41,7 +41,7 @@ public class Answer {
         System.out.print("Enter storage value in megabytes: ");
         double megabytes = scan.nextDouble();
         double gigabytes = megabyteToGigabyte(megabytes);
-        System.out.println(megabytes + " megabytes is equal to " + gigabytes + "gigabytes");
+        System.out.println(megabytes + " megabytes is equal to " + gigabytes + " gigabytes");
 
         // Part 2: Conditions
         // Display "valid" if it is true.
@@ -91,63 +91,57 @@ public class Answer {
 
         switch (sense) {
             case "sight":
-                System.out.print("Valid ");
+                System.out.println("Valid ");
                 break;
             case "smell":
-                System.out.print("Valid ");
+                System.out.println("Valid ");
                 break;
             case "hearing":
-                System.out.print("Valid ");
+                System.out.println("Valid ");
                 break;
             case "touch":
-                System.out.print("Valid ");
+                System.out.println("Valid ");
                 break;
             case "taste":
-                System.out.print("Valid ");
+                System.out.println("Valid ");
                 break;
             default:
-                System.out.print("invalid ");
+                System.out.println("invalid ");
                 break;
         }
-        
+
         // 10. Create a condition to detect if a word is present in the input.
         scan.nextLine();
         System.out.println("Use the word \"love\" in any sentence");
-        String sentence = scan.nextLine();
+        String love = scan.nextLine();
 
-        if (sentence.contains("love")) {
-            System.out.print("valid");
+        if (love.contains("love")) {
+            System.out.println("valid");
         } else {
-            System.out.print("invalid");
+            System.out.println("invalid");
         }
 
-
-        // Close scanner
         scan.close();
     }
 
     static double toFahrenheit(double temperature) {
-        temperature = (temperature * 9 / 5) + 32;
-        return temperature;
+        return (temperature * 9 / 5) + 32;
     }
 
     static double toCelsius(double temperature) {
-        temperature = (temperature - 32) * 5 / 9;
-        return temperature;
+        return (temperature - 32) * 5 / 9;
     }
 
     static double secondstoMinutes(double seconds) {
-        double minutes = seconds / 60;
-        return minutes;
+        return seconds / 60;
     }
 
     static double hoursToMinutes(double hours) {
-        double minutes = hours * 60;
-        return minutes;
+        return hours * 60;
+
     }
 
     static double megabyteToGigabyte(double megabytes) {
-        double gigabytes = megabytes / 1000;
-        return gigabytes;
+        return megabytes / 1000;
     }
 }
