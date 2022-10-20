@@ -21,5 +21,16 @@ public class App {
         for (int i = 0; i < myName.length; i++) {
             System.out.println(myName[i]);
         }
+        
+        System.out.println("");
+        // Print name in reverse
+        for (int i = myName.length - 1; i >= 0; i--) {
+            System.out.print(myName[i]);
+        }
+        
+        // Using foreach
+        for (char i : myName) {
+            System.out.print(i);
+        }
     }
 }
