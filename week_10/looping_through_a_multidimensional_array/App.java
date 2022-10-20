@@ -1,19 +1,20 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        String[][] movieReservation = {
-                { "Available", "Available", "Available", "Available", "Available", "Available", "Available" },
-                { "Booked", "Booked", "Booked", "Booked", "Booked", "Booked", "Booked" },
-                { "Booked", "Booked", "Booked", "Booked", "Booked", "Booked", "Booked" },
-                { "Booked", "Booked", "Booked", "Booked", "Booked", "Booked", "Booked" },
-                { "Booked", "Booked", "Booked", "Booked", "Booked", "Booked", "Booked" },
-                { "Booked", "Booked", "Booked", "Booked", "Booked", "Booked", "Booked" },
-                { "Available", "Available", "Available", "Available", "Available", "Selected", "Selected" }
-        };
+        // 3x3
+        String[][] seatingArrangement = { { "Elizer", "Darrel", "Paulo" },
+                { "Joan", "Bianca", "Leanna" },
+                { "Emlan", "Bea", "Celine" } };
 
-        for (int i = 0; i < movieReservation.length; i++) {
-            for (int j = 0; j < movieReservation.length; j++) {
-                System.out.println("movieReservation[" + i + "][" + j + "] = " + movieReservation[i][j]);
+        // outer loop
+        for (int row = 0; row < seatingArrangement.length; row++) {
+
+            System.out.println(" ");
+            System.out.print("row " + row + ": ");
+            // inner loop
+            for (int column = 0; column < seatingArrangement.length; column++) {
+
+                System.out.print(seatingArrangement[row][column] + " ");
             }
         }
     }
