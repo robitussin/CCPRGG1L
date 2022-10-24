@@ -14,6 +14,8 @@ public class App {
         System.out.println("4. PATTERN 4");
         // PATTERN 5
         System.out.println("5. PATTERN 5");
+        // Get the SUM
+        System.out.println("6. SUM");
     
         }
     }
