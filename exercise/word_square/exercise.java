@@ -25,15 +25,15 @@ public class Exercise {
       
         // WORD 6
         System.out.println("");
-        System.out.println("3. WORD 6");
+        System.out.println("6. WORD 6");
         
         // WORD 7
         System.out.println("");
-        System.out.println("4. WORD 7");
+        System.out.println("7. WORD 7");
         
         // WORD 8
         System.out.println("");
-        System.out.println("5. WORD 8");
+        System.out.println("8. WORD 8");
     
         }
     }
