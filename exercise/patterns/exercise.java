@@ -1,4 +1,4 @@
-public class App {
+public class Exercise {
     public static void main(String[] args) throws Exception {
 
         char [][] mdArray = {{'1','1','1'},{'1','1','1'},{'1','1','1'}, {'1', '1', '1'}};
