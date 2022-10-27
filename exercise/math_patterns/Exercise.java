@@ -22,5 +22,9 @@ public class Exercise {
       // PATTERN 5
       System.out.println("");
       System.out.println("5. SUM OF PATTERN 5");
+    
+      // PATTERN 6
+      System.out.println("");
+      System.out.println("6. SUM OF PATTERN 6");
   }
 }
