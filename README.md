@@ -1,6 +1,8 @@
 # **CCPRGG1L**
 
 This repository contains all of the java code implementations for each topic in the course outline for fundamentals of programming
+
+Course Outline:
 https://believed-bongo-319.notion.site/CCPRGG1L-af32dcf577e04c8daf45dc34950e7781
 
 | Folder Name | Topic |
