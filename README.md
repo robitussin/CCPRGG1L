@@ -13,5 +13,5 @@ https://believed-bongo-319.notion.site/CCPRGG1L-af32dcf577e04c8daf45dc34950e7781
 | week_6   | Sequential Structure  |
 | week_7   | Conditional Structure  |
 | week_8   | Iteration Structure  |
-| week_9   | Arrays  |
-| week_10-12   | Multidimensional Arrays  |
+| week_9   | Iteration Structure  |
+| week_10-12   | Arrays and Multidimensional Arrays  |
